@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+.container {
+    background-color: pink;
+    width: 75%;
+    margin: auto;
+}
+.trial-button {
+    background-color: hsl(0, 100%, 74%);
+}
+.claim-button {
+    background-color: hsl(154, 59%, 51%);
+}
+.sub-container {
+    background-color: white;
+}
+form {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+}
+form div i {
+    position: absolute;
+    padding: 10px;
+}
+.failure-icon {
+    right: 0;
+    opacity: 0;
+}
+.failure-icon, .error {
+    color: red;
+}
+.error {
+    font-size: 14.5px;
+    margin-top: 5px;
+}
+form :active {
+    color: hsl(0, 100%, 74%);
+}
+h1, .paragragh1 {
+    color: white;
+}
+@media (max-width: 1440px) {
+    .container {
+        flex-direction: column;
+    }
+}
+@media (max-width: 375px) {
+    
+}
